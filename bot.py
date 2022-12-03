@@ -1,7 +1,7 @@
 from main import Bot
 
-bot = Bot('fkisfshonvtpcvdnnaxflfdwmhsnqmpa')
-guid = 'u0BvgeO050cba0d18909403ab52d63b4'
+bot = Bot('AUTH')
+guid = 'GUID'
 
 previous_time = 'None'
 

@@ -27,8 +27,8 @@ class Crypto:
 
 class Tools(object):
     def clock_image(self, text: str) -> bytes:
-        image = Image.open('resource/image.png')
-        font = ImageFont.truetype(font='resource/digital.ttf', size=450)
+        image = Image.open('image.png')
+        font = ImageFont.truetype(font='digital.ttf', size=450)
         draw = ImageDraw.Draw(image)
 
         width, height = image.size
